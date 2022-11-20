@@ -41,6 +41,14 @@ project {
                 secretAccessKey = "credentialsJSON:9018ffd9-9e71-409b-a392-53f729509560"
             }
         }
+        awsConnection {
+            id = "AmazonWebServicesAws1"
+            name = "Amazon Web Services (AWS)"
+            credentialsType = static {
+                accessKeyId = "test"
+                secretAccessKey = "credentialsJSON:9018ffd9-9e71-409b-a392-53f729509560"
+            }
+        }
     }
 }
 
